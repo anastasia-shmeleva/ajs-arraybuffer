@@ -11,6 +11,6 @@ export default class ArrayBufferConverter {
       string += String.fromCharCode(newBuffer[i]);
     }
 
-    return string;
+    return JSON.parse(string);
   }
 }
